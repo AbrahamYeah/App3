@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_column="2"
+    tools:context="com.example.abrahamyeah.app3.Datos">
+    <!-- Nombre -->
+    <TableRow
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/TextoNombre"
+            android:text="@string/TextViewNombre"
+            android:textSize="@dimen/textosView"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/TextoNombreUser"
+            android:text="@string/TextViewNombre"
+            android:textSize="@dimen/textosView"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <!-- Dirección -->
+    <TableRow
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/TextoDireccion"
+            android:text="@string/TextViewDireccion"
+            android:textSize="@dimen/textosView"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/TextoDireccionUser"
+            android:text="@string/TextViewDireccion"
+            android:textSize="@dimen/textosView"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <!-- Telefono -->
+    <TableRow
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/TextoTelefono"
+            android:text="@string/TextViewTelefono"
+            android:textSize="@dimen/textosView"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="50dp"
+
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/TextoTelefonoUser"
+            android:text="@string/TextViewTelefono"
+            android:textSize="@dimen/textosView"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </TableRow>
+
+    <!-- Fecha de Nacimiento -->
+    <TableRow
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/TextoFecha"
+            android:text="@string/TextViewFechaNacVista2"
+            android:textSize="@dimen/textosView"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="50dp"
+
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/TextoFechaUser"
+            android:text="@string/TextViewFechaNacVista2"
+            android:textSize="@dimen/textosView"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </TableRow>
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/modificar"
+        android:text="@string/btnEditar"
+        android:textSize="@dimen/textosView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/Confirmar"
+        android:text="@string/btnConfirmar"
+        android:textSize="@dimen/textosView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</TableLayout>

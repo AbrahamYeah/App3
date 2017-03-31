@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App3</string>
+    <string name="TextViewNombre">Nombre:</string>
+    <string name="TextViewDireccion">Dirección:</string>
+    <string name="TextViewTelefono">Telefono:</string>
+    <string name="TextViewFechaNac">Fecha de nacimiento:</string>
+    <string name="TextViewFechaNacVista2">Fecha de\n nacimiento:</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="title_activity_muestra">Muestra</string>
+    <string name="btnEditar">Editar</string>
+    <string name="btnConfirmar">Confirmar</string>
+    <string name="textoConfirmado">¡Bienvenido!</string>
+</resources>
